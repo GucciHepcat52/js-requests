@@ -237,6 +237,8 @@ const createFood = (event) => {
     .catch((error) => {
       console.log(error);
     });
+
+  foodInput.value = "";
 };
 
 document.addEventListener("submit", createFood);
